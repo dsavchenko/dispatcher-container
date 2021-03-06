@@ -1,0 +1,12 @@
+[submodule "ddaclient"]
+	path = ddaclient
+	url = https://github.com/oda-hub/ddaclient.git
+[submodule "oda_api"]
+	path = oda_api
+	url = https://github.com/oda-hub/oda_api.git
+[submodule "cdci_osa_plugin"]
+	path = cdci_osa_plugin
+	url = https://github.com/oda-hub/dispatcher-plugin-integral.git
+[submodule "cdci_data_analysis"]
+	path = cdci_data_analysis
+	url = https://github.com/oda-hub/dispatcher-app.git
