@@ -17,9 +17,6 @@ ADD oda_api /oda_api
 RUN pip install -r /oda_api/requirements.txt && \
     pip install /oda_api
 
-ADD ddaclient /ddaclient
-RUN pip install /ddaclient
-
 RUN pip install 'git+https://github.com/integral-observatory/astroquery.git#egg=astroquery'
 
 # these will be mounted at runtime
