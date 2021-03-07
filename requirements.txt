@@ -1,6 +1,6 @@
 werkzeug<=0.16.1
 gunicorn
-ddaclient==1.1.6
+ddaclient==1.1.10
 future
 numpy
 pyyaml
@@ -8,7 +8,6 @@ simplejson
 flask
 astropy>=2.0.3
 pathlib
-gunicorn
 decorator
 python-logstash
 raven
@@ -18,6 +17,5 @@ json_tricks
 flask-restplus
 oda_api
 six
-werkzeug<=0.16.1
 python-shell-colors==0.1.11
 flower
