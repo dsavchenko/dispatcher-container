@@ -17,5 +17,5 @@ json_tricks
 flask-restplus
 oda_api
 six
-python-shell-colors==0.1.11
+python-shell-colors
 flower
