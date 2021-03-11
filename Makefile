@@ -1,7 +1,7 @@
 version ?= $(shell git describe --always)
 
-image=odahub/dispatcher:$(version)
-image_latest=odahub/dispatcher:latest
+image=densavchenko/dispatcher:$(version)
+image_latest=densavchenko/dispatcher:latest
 
 run: build
 	docker run \
@@ -16,15 +16,14 @@ run: build
 		$(image) 
 
 build:
-	bash make.sh 
 	git submodule update --init
 	docker build  -t $(image)  \
 		.
 
 
 push: build
-	docker tag $(image) $(image_latest)
-	docker push $(image_latest)
+	#docker tag $(image) $(image_latest)
+	#docker push $(image_latest)
 	docker push $(image)
 
 
